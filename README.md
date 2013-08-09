@@ -14,19 +14,19 @@ In short:
 
 ###Install
 ```bash
-npm install cordova -g
+$ npm install cordova -g
 ```
 
 ###Create
 ```bash
-cordova create hello com.domain.hello Hello
+$ cordova create hello com.domain.hello Hello
 ```
 
 ###Add platforms
 ```bash
-cd hello
-cordova platform add android
-cordova platform add ios
+$ cd hello
+$ cordova platform add android
+$ cordova platform add ios
 ```
 
 ###Plugins
