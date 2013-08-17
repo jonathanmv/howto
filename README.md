@@ -152,3 +152,20 @@ And remember to set some styling on the html:
       width: 100%;
     }
 ```
+
+##Splashscreen
+
+###Android
+Add this line 
+```
+        super.setIntegerProperty("splashscreen", R.drawable.splash);
+        super.loadUrl(Config.getStartUrl(), 7000);
+```
+
+Create ressource in drawable: *(To make the splashscreen not stretch)*
+```
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/splashImage"
+    android:gravity="center_horizontal|center_vertical" />
+```
