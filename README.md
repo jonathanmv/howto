@@ -53,7 +53,7 @@ $ cordova build
 ```
 
 ###Emulate
-Again a super cool featur
+Again a super cool feature
 ```bash
 $ cordova emulate iphone
 ```
